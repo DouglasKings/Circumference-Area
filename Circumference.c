@@ -14,10 +14,11 @@ int main() {
     printf("Enter the radius: ");
     scanf("%lf", &Radius); 
 
-    // Calculate and print the circumference
+    // Calculating circumference and area
     Circumference = calculateCircumference(Radius);
     Area = calculateArea(Radius);
 
+    //Printing the circumference and area
     printf("The radius is: %.2f\n", Radius);
     printf("The circumference is: %.2f\n", Circumference);
     printf("The area is: %.2f\n", Area);
