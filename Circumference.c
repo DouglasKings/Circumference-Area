@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <math.h>
+#include <stdio.h>//header file contains declarations for input/output operations.
+#include <math.h>//header file contains mathematical function declarations.
 
-// Define PI
+// Define PI, defines a constant named PI with the value 3.14159265359.
 #define PI 3.14159265359
 
 // Function prototypes
@@ -12,7 +12,7 @@ int main() {
     double Radius, Circumference, Area;
 
     printf("Enter the radius: ");
-    scanf("%lf", &Radius); // Change %d to %lf to read a double
+    scanf("%lf", &Radius); 
 
     // Calculate and print the circumference
     Circumference = calculateCircumference(Radius);
